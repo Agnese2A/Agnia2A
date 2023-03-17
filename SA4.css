@@ -1,0 +1,46 @@
+#textone {
+	margin-top: 10%;
+	flex-direction: column;
+}
+#heading {
+	text-align: center;
+	width:100%;
+}
+#heading h1{
+	font-size: 72px;
+	color: #B2914D;
+}
+#green2 {
+	background-color: #4B604C;
+	padding: 1%;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+#img_1{
+	position: absolute;
+	top: 3%;
+	right: -5%;
+	width: 57%;
+}
+#img_3 {
+	position: absolute;
+	bottom: -20%;
+	left: -7%;
+	width: 40%;
+}
+#green2 p {
+	color: white; 
+	font-size: 30px;
+}
+#textmain_1{
+	width: 40%;
+}
+#textmain_2{
+	width: 100%;
+}
+#textmain_3{
+	width: 65%;
+	align-self: flex-end;
+}

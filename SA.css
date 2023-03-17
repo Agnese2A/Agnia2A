@@ -1,0 +1,110 @@
+body{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	font-weight: 700;
+}
+#menu{
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:#234C2B;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	z-index: 99;
+}
+#UNlogo{
+	width:25%;
+}
+#UNlogo_mobile {
+	display: none;
+}
+#line_menu{
+	width:100%;
+	background-color:#B2B2B2;
+	display: flex;
+	justify-content:center;
+}
+.el_menu{
+	padding:1.5% 2%;
+
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.el_menu a {
+	text-decoration:none;
+	color: black;
+}
+.AD{
+	background:#333333;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	width:100px;
+	height:100px;
+	opacity:0.2;
+}
+#textone{
+	width:80%;
+	height:1600px;
+	margin-top: 18%;
+	display:flex;
+	flex-direction:row;
+	gap: 5%;
+	
+}
+
+#image{
+	width:min-content;
+	height:100%;
+	font-size: 50px;
+	z-index: -1;
+}
+#text{
+	width:67%;
+	height:100%;
+	font-size: 40px;
+	margin-top: 7%;
+}
+#photo1{
+	width:100%;
+}
+#white_text{
+	color: white;
+}
+#green{
+	position: absolute;
+	top: 110%;
+	left: 34%;
+	z-index: -3;
+	width: 55%;
+	height: 55%;
+	background-color:#94B095;
+}
+#imggreen{
+	position: absolute;
+	z-index: 1;
+	top: 163%;
+	left: 22%;
+	width: 65%;
+}
+#boys{
+	position: absolute;
+	z-index: 2;
+	top: 140%;
+	left: 15%;
+	width: 25%;
+}
+.computer {
+	
+}
+
+.tablet {
+	display: none;
+	width: 50px;
+}

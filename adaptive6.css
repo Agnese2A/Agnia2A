@@ -1,0 +1,42 @@
+@media (max-width: 768px){
+	.computer {
+		display: none;
+	}
+	.tablet {
+		display: block;
+	}
+	#heading h1 {
+		font-size: 30px;
+	}
+	#yellow {
+		height: 150.54px;
+		width: 101%;
+		margin-top: 24px;
+	}
+	#yellow p {
+		font-size: 20px;
+	}
+	#green4 {
+		margin-top: 2px;
+		height: 355px
+	}
+	#img4 {
+		width: 99%;
+		right: 113px;
+		bottom: 39px;
+}
+	}
+}
+@media (max-width: 425px){
+	#heading h1 {
+		font-size: 20px;
+	}
+	#yellow p {
+		font-size: 15px;
+	}
+}
+@media (min-width: 1200px){
+	
+	
+}
+

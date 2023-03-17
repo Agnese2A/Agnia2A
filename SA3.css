@@ -1,0 +1,56 @@
+#textone{
+	width:90%;
+	flex-direction: column;
+}
+
+#head_title{
+	overflow-wrap: break-word;
+	width: 60%;
+	color:#B2914D;
+	text-transform: uppercase;
+}
+#head_title h3{
+	font-size:30px;
+}
+#head_title h1{
+	font-size:50px;
+}
+#imagext img {
+	width: 100%;
+}
+#imagext {
+	display: flex;
+	justify-content: flex-end;
+}
+#text {
+	color: white;
+	background-color:#94B095;
+	position:relative;
+	height: auto;
+	
+}
+#text li{
+	font-size:40px;
+}
+#text h1 {
+	font-size: 72px;
+	padding-left: 70px;
+}
+#text img{
+	position: absolute;
+	z-index: 2;
+	top: 21%;
+	left:-60%;
+	width: 90%;
+}
+#text ul{
+	padding-left: 400px;
+}
+#textone ul{
+	font-size: 40px;
+}
+
+
+
+
+

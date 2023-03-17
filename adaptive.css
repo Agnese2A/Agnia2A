@@ -1,0 +1,81 @@
+@media (max-width: 768px){
+	.computer {
+		display: none;
+	}
+
+	.tablet {
+		display: block;
+	}
+	#menu {
+		height: 100px;
+	}
+	#line_menu {
+		position: fixed;
+		bottom: 0px;
+		left: 0%;
+	}
+	
+	#image h2 {
+		font-size: 30px;
+	}
+	#text {
+		font-size: 25px;
+	}
+	#green {
+		top: 84%;
+		left: 16%;
+		width: 75%;
+	}
+	#boys {
+		top: 132%;
+		left: 52%;
+		width: 47%;
+	}
+	#imggreen {
+		top: 142%;
+		left: 0%;
+		width: 100%;
+	}
+	
+}
+@media (max-width: 425px){
+	#UNlogo {
+		display: none;
+	}
+	#UNlogo_mobile {
+		display: block;
+		width: 120px;
+	}
+	#menu {
+		height: 120px;
+	}
+	#image h2 {
+		font-size: 20px;
+	}
+	#text {
+		font-size: 15px;
+	}
+	#textone {
+		margin-top:26%;
+	}
+	#green {
+		top: 65%;
+		left: 0%;
+		width: 100%;
+	}
+	#boys {
+		top: 102%;
+		left: 29%;
+		width: 71%;
+	}
+	#imggreen {
+		top: 116%;
+	}
+}
+@media (min-width: 1200px){
+	#menu{
+		
+	}
+	
+}
+

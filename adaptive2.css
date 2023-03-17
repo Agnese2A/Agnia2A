@@ -1,0 +1,43 @@
+@media (max-width: 768px){
+	.computer {
+		display: none;
+	}
+	.tablet {
+		display: block;
+	}
+	#head_title h3 {
+		font-size: 25px;
+	}
+	#head_title h1 {
+		font-size: 30px;
+	}
+	#maintext {
+		font-size: 25px;
+	}
+	#image {
+		top: 60%;
+		width: 37%;
+	}
+}
+@media (max-width: 425px){
+	#head_title h3 {
+		font-size: 15px;
+	}
+	#head_title h1 {
+		font-size: 20px;
+	}
+	#maintext {
+		font-size: 15px;
+	}
+	#image {
+		top: 30%;
+	}
+}
+@media (min-width: 1200px){
+	#image {
+		top: 88%;
+		width: 37%;
+	}
+	
+}
+
