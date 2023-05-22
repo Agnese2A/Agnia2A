@@ -1,0 +1,50 @@
+#greenQuiz {
+	background-color: #94B095;
+	width: 920px;
+	height: 160px;
+	margin-top: 270px;
+	text-align: center;
+	font-size: 72px;
+}
+#ALLquestions { 
+	width: 90%;
+	margin-top: 20px;
+}
+.Q {
+	display:flex;
+	border: solid 4px black;
+	width: 1335px;
+	height: 335px;
+	flex-direction:column;
+}
+
+.TEXT{
+	display: flex; 
+	flex-direction: row ; 
+	align-items: flex-start ;
+	justify-content: flex-start;
+	gap: 10px;
+}
+.squareBL {
+	width: 60px;
+	height: 60px;
+	background-color: #9D8550;
+
+}
+.text1 {
+	font-size: 25px;
+	width: 45%;
+}
+.Ans {
+	width: 87%;
+	height: 160px;
+	background-color:rgba(148, 176, 149, 0.6);
+	margin-left: 70px;
+	margin-top: 20px;
+	font-size: 25px;
+	display: flex;
+	flex-wrap:wrap;
+}
+.Ans label {
+	width: 50%;
+}

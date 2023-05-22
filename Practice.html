@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Test </title>
+		<link rel="stylesheet" type="text/css" href="Practice.css">
+	</head>
+	<body>
+		<p> Answer the question: </p>
+		<p>
+			5*5+43= 
+			<input type="text" id="texti">
+		</p>
+		<button onClick="check();"> check </button>
+		<div id="result"> </div>
+		
+		
+		
+		
+		<script>
+		
+		function check() {
+			var correct_answer = 78
+			correct_answer = 78
+			
+			answer = document.getElementById('texti').value;
+			
+			if (answer == correct_answer) {
+				document.getElementById('result').innerHTML	= "The task was completed correctly.";
+			}
+			else {
+				document.getElementById('result').innerHTML = "The task was completed incorrectly.";
+			}
+		}
+		
+		</script>
+	</body>
+	
+	
+
+</html>
